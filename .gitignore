@@ -229,3 +229,13 @@ __marimo__/
 # Python
 __pycache__/
 *.pyc
+
+# Lambda deployment packages
+*.zip
+
+# AWS credentials
+.aws/
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
