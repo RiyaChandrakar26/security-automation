@@ -3,7 +3,7 @@ import boto3
 
 sns = boto3.client('sns')
 
-TOPIC_ARN = "arn:aws:sns:ap-south-1:674113923575:root-login-alerts:6a55b5ff-53dd-4120-a7af-5f15b558ec86"
+TOPIC_ARN = "arn:aws:sns:ap-south-1:674113923575:root-login-alerts"
 
 def lambda_handler(event, context):
 
